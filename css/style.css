@@ -64,6 +64,7 @@ header{
     font-size: 25px;
     padding:20px;
     margin-left:50px;
+    color:#444851;
   
 }
 
@@ -71,18 +72,27 @@ header{
     display: inline-block;
     height:20px;
     width: 20px;
-    border: 1px solid lightgreen;
-    color:lightgreen;
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
     margin-left: 70px;
 }
 
-.first-task{
+#verde{
+    border: 1px solid lightgreen;
+    color:lightgreen;
+}
+
+#rosso{
+    border: 1px solid red;
+    color:red;
+}
+
+.task{
     font-weight: 600;
     padding-left: 3px;
     padding-right: 3px;
+    color:#444851;
 }
 .tag-blue{
     background-color: #47adf1; 
@@ -91,4 +101,39 @@ header{
     border:none;
     padding: 5px;
 
+}
+.mobile-app{
+    margin-top:20px;
+}
+
+.tag-purple{
+    background-color:#9c72e4 ;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
+}
+
+.interview{
+    margin-top:20px;
+}
+
+.tag-green{
+    background-color:#64c0a9 ;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
+}
+
+.last-task{
+    margin-top:20px;
+}
+
+.tag-yellow{
+    background-color:#f29e33 ;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
 }
