@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 
 
@@ -21,3 +21,73 @@ body{
     font-size: 40px;   
 }
 
+header{
+    background-color: white;
+}
+
+
+.add-button{
+    width: 1000px;
+    margin:0 auto;
+    background-color: white;
+    margin-top:50px;
+    padding:20px;
+}
+
+.add-task{
+    background-color: #47adf1;
+    padding:8px;
+    border-radius: 4px;
+    border:none;
+    color:white;
+    margin-left: 60px;
+    margin-right:5px;
+}
+
+.add-section{
+    background-color: white;
+    padding:6px;
+    border-radius: 4px;
+    border-color: #c5cbd0;
+    color:#c5cbd0;
+}
+
+.list{
+    background-color: white;
+    width:1000px;
+    margin:0 auto;
+    margin-top:4px;
+}
+
+.new-task{
+    font-weight: 900;
+    padding:20px;
+    margin-left:10px;
+  
+}
+
+.cerchio{
+    display: inline-block;
+    height:20px;
+    width: 20px;
+    border: 1px solid lightgreen;
+    color:lightgreen;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.first-task{
+    font-weight: 600;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.tag-blue{
+    background-color: #47adf1; 
+    color:white;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
+
+}
