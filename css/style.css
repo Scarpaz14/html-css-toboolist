@@ -57,9 +57,10 @@ header{
     width:1000px;
     margin:0 auto;
     margin-top:4px;
+    padding-bottom: 50px;
 }
 
-.new-task{
+.title-task{
     font-weight: 900;
     font-size: 25px;
     padding:20px;
@@ -100,10 +101,13 @@ header{
     border-radius: 8px;
     border:none;
     padding: 5px;
+}
+.section-one {
+    margin-bottom: 20px;
 
 }
-.mobile-app{
-    margin-top:20px;
+.section-two {
+    margin-bottom: 20px;
 }
 
 .tag-purple{
@@ -114,10 +118,6 @@ header{
     padding: 5px;
 }
 
-.interview{
-    margin-top:20px;
-}
-
 .tag-green{
     background-color:#64c0a9 ;
     color:white;
@@ -126,7 +126,7 @@ header{
     padding: 5px;
 }
 
-.last-task{
+.elenco-task{
     margin-top:20px;
 }
 
@@ -137,3 +137,21 @@ header{
     border:none;
     padding: 5px;
 }
+.tag-pink{
+    background-color:#d863a1 ;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
+}
+
+.tag-green{
+    background-color:#b0c926 ;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
+}
+
+
+
