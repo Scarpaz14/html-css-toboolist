@@ -12,17 +12,19 @@ body{
 
 .logo{
     vertical-align: middle;
-    padding:15px;
+    
 }
 
 .titolo{
     display: inline-block;
     vertical-align: middle;
     font-size: 40px;   
+    font-weight: 900;
 }
 
 header{
     background-color: white;
+    padding:20px;
 }
 
 
@@ -32,6 +34,7 @@ header{
     background-color: white;
     margin-top:50px;
     padding:20px;
+    border-radius: 10px;
 }
 
 .add-task{
@@ -57,13 +60,14 @@ header{
     width:1000px;
     margin:0 auto;
     margin-top:4px;
-    padding-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .title-task{
     font-weight: 900;
     font-size: 25px;
-    padding:20px;
+    margin-bottom: 20px;
     margin-left:50px;
     color:#444851;
   
@@ -76,7 +80,7 @@ header{
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 #verde{
@@ -127,7 +131,8 @@ header{
 }
 
 .elenco-task{
-    margin-top:20px;
+    margin-top:15px;
+    
 }
 
 .tag-yellow{

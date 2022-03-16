@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
-    <title>Toboolist</title>
 </head>
 <body>
     <header>
@@ -24,20 +24,24 @@
         <!-- new task  -->
         <div class="list">
         <section class="section-one">
-            <div class="title-task"> &#9660; New Task</div> 
-            <span id="verde" class="cerchio">&check;</span> 
-            <span class="task">Quarterly Newsletter</span> 
-            <button class="tag-blue">Editorial</button>
+            <h3 class="title-task"> &#9660; New Task</h3> 
+            <div class="elenco-task">
+                <span id="verde" class="cerchio">&check;</span> 
+                <span class="task">Quarterly Newsletter</span> 
+                <button class="tag-blue">Editorial</button>
+            </div>
         </section>
         <!-- /new task  -->
 
         <!-- today list  -->
         <section class="section-two">
-            <div class="title-task"> &#9660; Today</div> 
-            <span id="verde" class="cerchio">&check;</span> 
-            <span class="task">Recruiting Blog Post</span> 
-            <button class="tag-blue">Editorial</button>
-        
+            <h3 class="title-task"> &#9660; Today</h3>
+            <div class="elenco-task">
+                <span id="verde" class="cerchio">&check;</span> 
+                <span class="task">Recruiting Blog Post</span> 
+                <button class="tag-blue">Editorial</button>
+            </div> 
+
             <div class="elenco-task">
                 <span id="verde" class="cerchio">&check;</span> 
                 <span class="task">Mobile app launch</span> 
@@ -60,9 +64,11 @@
 
         <!-- Upcomig list  -->
         <section class="section-three">
-            <div class="title-task"> &#9660; Upcoming</div> 
+            <h3 class="title-task"> &#9660; Upcoming</h3> 
+            <div class="elenco-task">
                 <span id="rosso" class="cerchio">&cross;</span> 
                 <span class="task">Schedule meeting with Alex</span> 
+            </div>
 
             <div class="elenco-task">
                 <span id="verde" class="cerchio">&check;</span> 
